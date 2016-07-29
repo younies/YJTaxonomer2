@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3FB2FD11D4BF68800461E95 /* final_checker_for_all.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2FC71D4BF68800461E95 /* final_checker_for_all.cpp */; };
 		F3FB2FD21D4BF68800461E95 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2FC91D4BF68800461E95 /* main.cpp */; };
 		F3FB2FD31D4BF68800461E95 /* node_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2FCA1D4BF68800461E95 /* node_reader.cpp */; };
 		F3FB2FD41D4BF68800461E95 /* taxonomer_for_files.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2FCC1D4BF68800461E95 /* taxonomer_for_files.cpp */; };
 		F3FB2FD51D4BF68800461E95 /* tree_builder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2FCD1D4BF68800461E95 /* tree_builder.cpp */; };
 		F3FB2FD61D4BF68800461E95 /* YRJ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2FCF1D4BF68800461E95 /* YRJ.cpp */; };
+		F3FB2FD81D4BFD1100461E95 /* inexact_new_experiment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3FB2FD71D4BFD1100461E95 /* inexact_new_experiment.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +30,6 @@
 /* Begin PBXFileReference section */
 		F33E41B11D3D31D500A94E24 /* YJTaxonomer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YJTaxonomer; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FB2FC61D4BF68800461E95 /* configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = configuration.h; path = YJTaxonomer2/configuration.h; sourceTree = SOURCE_ROOT; };
-		F3FB2FC71D4BF68800461E95 /* final_checker_for_all.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = final_checker_for_all.cpp; path = YJTaxonomer2/final_checker_for_all.cpp; sourceTree = SOURCE_ROOT; };
 		F3FB2FC81D4BF68800461E95 /* headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = headers.h; path = YJTaxonomer2/headers.h; sourceTree = SOURCE_ROOT; };
 		F3FB2FC91D4BF68800461E95 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = YJTaxonomer2/main.cpp; sourceTree = SOURCE_ROOT; };
 		F3FB2FCA1D4BF68800461E95 /* node_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = node_reader.cpp; path = YJTaxonomer2/node_reader.cpp; sourceTree = SOURCE_ROOT; };
@@ -40,6 +39,7 @@
 		F3FB2FCE1D4BF68800461E95 /* tree_builder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = tree_builder.hpp; path = YJTaxonomer2/tree_builder.hpp; sourceTree = SOURCE_ROOT; };
 		F3FB2FCF1D4BF68800461E95 /* YRJ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = YRJ.cpp; path = YJTaxonomer2/YRJ.cpp; sourceTree = SOURCE_ROOT; };
 		F3FB2FD01D4BF68800461E95 /* YRJ.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = YRJ.hpp; path = YJTaxonomer2/YRJ.hpp; sourceTree = SOURCE_ROOT; };
+		F3FB2FD71D4BFD1100461E95 /* inexact_new_experiment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = inexact_new_experiment.cpp; path = YJTaxonomer2/inexact_new_experiment.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				F3FB2FC61D4BF68800461E95 /* configuration.h */,
-				F3FB2FC71D4BF68800461E95 /* final_checker_for_all.cpp */,
 				F3FB2FC81D4BF68800461E95 /* headers.h */,
 				F3FB2FC91D4BF68800461E95 /* main.cpp */,
 				F3FB2FCA1D4BF68800461E95 /* node_reader.cpp */,
@@ -83,6 +82,7 @@
 				F3FB2FCE1D4BF68800461E95 /* tree_builder.hpp */,
 				F3FB2FCF1D4BF68800461E95 /* YRJ.cpp */,
 				F3FB2FD01D4BF68800461E95 /* YRJ.hpp */,
+				F3FB2FD71D4BFD1100461E95 /* inexact_new_experiment.cpp */,
 			);
 			name = YJTaxonomer2;
 			path = YJTaxonomy;
@@ -144,9 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FB2FD81D4BFD1100461E95 /* inexact_new_experiment.cpp in Sources */,
 				F3FB2FD21D4BF68800461E95 /* main.cpp in Sources */,
 				F3FB2FD41D4BF68800461E95 /* taxonomer_for_files.cpp in Sources */,
-				F3FB2FD11D4BF68800461E95 /* final_checker_for_all.cpp in Sources */,
 				F3FB2FD61D4BF68800461E95 /* YRJ.cpp in Sources */,
 				F3FB2FD51D4BF68800461E95 /* tree_builder.cpp in Sources */,
 				F3FB2FD31D4BF68800461E95 /* node_reader.cpp in Sources */,
